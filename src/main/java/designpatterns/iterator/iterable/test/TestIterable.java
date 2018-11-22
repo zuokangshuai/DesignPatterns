@@ -26,6 +26,7 @@ class TestIterable {
         objectAggregate.add(p3);
         objectAggregate.add(p4);
         objectAggregate.add(p5);
+
         for (Object anObjectAggregate : objectAggregate) {
             Person person = (Person) anObjectAggregate;
             System.out.println(person.getName());
