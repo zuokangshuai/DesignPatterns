@@ -7,7 +7,6 @@ package designpatterns.templatemethod.core;
  */
 public class TemplateOne extends AbstractTemplate{
 
-
     @Override
     void appendHead(StringBuffer stringBuffer) {
         stringBuffer.append("<head>听党指挥-能打胜仗</head>");
