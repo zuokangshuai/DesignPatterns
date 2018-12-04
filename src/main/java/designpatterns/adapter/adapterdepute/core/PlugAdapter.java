@@ -1,8 +1,8 @@
 package designpatterns.adapter.adapterdepute.core;
 
 /**
- * @author Kangshuai Zuo
  * @description 插头转换器
+ * @author Kangshuai Zuo
  * @date 2018/11/22 17:56
  */
 public class PlugAdapter extends ThreePlug{
