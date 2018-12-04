@@ -7,9 +7,16 @@ package designpatterns.factorymethod.core;
  */
 public class ProductApple extends Product {
 
+    private String productType;
+
+    public ProductApple(String productType){
+        this.productType = productType;
+    }
+
+
     @Override
     void create() {
-        System.out.println("我用苹果造了罐头");
+        System.out.println("我用苹果造了" + productType);
     }
 
 }

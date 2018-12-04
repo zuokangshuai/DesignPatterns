@@ -7,9 +7,10 @@ package designpatterns.factorymethod.core;
  */
 public abstract class Product {
 
+
     public final void show(){
 
-        System.out.println("处理");
+        System.out.println("开始制作");
         create();
         System.out.println("出售");
     }

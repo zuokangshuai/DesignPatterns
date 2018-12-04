@@ -16,13 +16,13 @@ public class Test {
 
 
         Factory factoryApple = new ProductFactoryApple();
-        Product productA = factoryApple.createProdect("沙拉");
+        Product productA = factoryApple.createProduct("沙拉");
         productA.show();
 
         System.out.println("---------------------------------------------");
 
         Factory factoryOrange = new ProductFactoryOrange();
-        Product productOrange = factoryOrange.createProdect("罐头");
+        Product productOrange = factoryOrange.createProduct("罐头");
         productOrange.show();
     }
 }

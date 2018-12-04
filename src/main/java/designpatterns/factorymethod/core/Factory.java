@@ -7,6 +7,6 @@ package designpatterns.factorymethod.core;
  */
 public interface Factory {
 
-    public Product createProdect(String productType);
+    public Product createProduct(String productType);
 
 }

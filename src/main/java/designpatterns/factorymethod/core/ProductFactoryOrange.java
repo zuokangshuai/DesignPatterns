@@ -8,7 +8,7 @@ package designpatterns.factorymethod.core;
 public class ProductFactoryOrange implements Factory{
 
     @Override
-    public Product createProdect(String productType) {
-        return new ProductOrange();
+    public Product createProduct(String productType) {
+        return new ProductOrange(productType);
     }
 }
