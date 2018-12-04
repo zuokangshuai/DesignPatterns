@@ -13,7 +13,6 @@ public class ProductApple extends Product {
         this.productType = productType;
     }
 
-
     @Override
     void create() {
         System.out.println("我用苹果造了" + productType);

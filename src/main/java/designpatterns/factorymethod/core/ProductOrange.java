@@ -12,6 +12,7 @@ public class ProductOrange extends Product{
     public ProductOrange(String productType){
         this.productType = productType;
     }
+
     @Override
     void create() {
         System.out.println("我用橘子造了" + productType);
