@@ -9,6 +9,8 @@ public class Person implements Cloneable{
 
     private String name;
 
+    private int age;
+
     private static Person person = new Person();
 
     private Person(){}
@@ -21,6 +23,14 @@ public class Person implements Cloneable{
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
@@ -29,13 +39,14 @@ public class Person implements Cloneable{
     }
 
     public static Person getInstance(){
+        person.setAge(20);
         person.setName("XXX");
         return person;
     }
 
     public Person clonePerson(){
         try {
-            return (Person) person.clone();
+            return (Person) super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }

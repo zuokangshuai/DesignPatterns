@@ -14,8 +14,8 @@ public class Test {
 
         Person person2 = person1.clonePerson();
         person2.setName("YYY");
+        person2.setAge(10);
         System.out.println(person2.getName());
-
     }
 
 }
