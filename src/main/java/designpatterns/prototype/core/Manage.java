@@ -1,7 +1,4 @@
-package designpatterns.prototype;
-
-import designpatterns.prototype.core.Prototype;
-
+package designpatterns.prototype.core;
 import java.util.HashMap;
 import java.util.Map;
 

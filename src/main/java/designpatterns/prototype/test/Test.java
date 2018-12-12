@@ -1,6 +1,6 @@
 package designpatterns.prototype.test;
 
-import designpatterns.prototype.Manage;
+import designpatterns.prototype.core.Manage;
 import designpatterns.prototype.core.Prototype;
 import designpatterns.prototype.core.PrototypeOne;
 
