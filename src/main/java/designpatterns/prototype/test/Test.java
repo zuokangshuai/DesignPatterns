@@ -5,7 +5,7 @@ import designpatterns.prototype.core.Prototype;
 import designpatterns.prototype.core.PrototypeOne;
 
 /**
- * @description 测试类1
+ * @description 测试类
  * @author Kangshuai Zuo
  * @date 2018/12/10 18:04
  */

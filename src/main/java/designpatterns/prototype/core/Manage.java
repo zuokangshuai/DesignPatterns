@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class Manage {
 
-    private Map<String, Prototype> map = new HashMap<>();
+    private Map<String, Prototype> map = new HashMap<String, Prototype>();
 
     public void register(String name, Prototype prototype){
         map.put(name, prototype);

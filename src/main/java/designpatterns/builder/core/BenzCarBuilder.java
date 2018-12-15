@@ -7,7 +7,7 @@ package designpatterns.builder.core;
  */
 public class BenzCarBuilder extends CarBuilder {
 
-    Car benzCar = new BenzCar();
+    private Car benzCar = new BenzCar();
 
     @Override
     public void createName() {

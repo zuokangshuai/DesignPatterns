@@ -1,7 +1,5 @@
 package designpatterns.builder.core;
 
-import java.util.Locale;
-
 /**
  * @author Kangshuai Zuo
  * @description 奥迪车制造工人
@@ -9,7 +7,7 @@ import java.util.Locale;
  */
 public class AudiCarBuilder extends CarBuilder {
 
-    Car audiCar = new AudiCar();
+    private Car audiCar = new AudiCar();
 
     @Override
     public void createName() {
