@@ -16,10 +16,10 @@ public class Test {
         Person agency = new Agency((Host) host);
         System.out.println("房主手里房子的卖价"+(((Host) host).getHousePrice()));
         System.out.println("中介手里房子的卖价"+((Agency) agency).getHousePrice());
-        System.out.println("*******中介操纵房价************");
+        System.out.println("*********** 中介操纵房价 ************");
         ((Agency) agency).upPrice(100D);
         ((Agency) agency).subPrice(50D);
-        System.out.println(((Agency) agency).getPrice());
+        System.out.println("中介手里房子的卖价"+((Agency) agency).getPrice());
 
         System.out.println("************* 主人变更房价 ************");
         ((Host) host).setPrice(100000D);

@@ -10,12 +10,12 @@ public class Agency extends Person implements Sell{
     /** 持有房子主人对象*/
     private Host host;
 
+    /** 房子价格 */
+    private Double price;
+
     public Double getPrice() {
         return price;
     }
-
-    /** 房子价格 */
-    private Double price;
 
     public Agency(Host host){
         this.host = host;
